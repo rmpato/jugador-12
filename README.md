@@ -13,8 +13,14 @@ Azul y Oro. A light theme inspired by Boca Juniors: gold editor background, dark
 | Editor background | `#F4B802` |
 | Navy chrome (title/status/tabs) | `#002B5C` / `#012F60` |
 | Cream surfaces (sidebar, panel) | `#F6F0E4` |
-| Ink (keywords, strings, comments) | `#2E1500` |
-| Pale gold (functions, types, fields) | `#FFF9A8` |
+| Ink (variables, punctuation) | `#2E1500` |
+| Keywords (navy, bold) | `#002B5C` |
+| Strings (brick red) | `#8A1F0F` |
+| Comments (olive, italic) | `#4E6317` |
+| Functions (wine) | `#7A1E5C` |
+| Types and namespaces (teal) | `#00615A` |
+| Properties (dark cyan) | `#0F5A7A` |
+| Constants and numbers (purple) | `#5B2A86` |
 | Current line highlight | `#BD9008` |
 
 ## Try it locally
