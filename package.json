@@ -1,0 +1,30 @@
+{
+  "name": "boca-juniors-1905-theme",
+  "displayName": "Boca Juniors 1905",
+  "description": "Azul y Oro color theme for VS Code, inspired by Boca Juniors. Gold editor, navy chrome, cream panels.",
+  "version": "0.1.0",
+  "publisher": "pato",
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.75.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "boca",
+    "boca juniors",
+    "xeneize",
+    "azul y oro",
+    "theme"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Boca Juniors 1905",
+        "uiTheme": "vs",
+        "path": "./themes/boca-juniors-1905-color-theme.json"
+      }
+    ]
+  }
+}
