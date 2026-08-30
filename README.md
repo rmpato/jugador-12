@@ -4,6 +4,8 @@
 
 Azul y Oro. A light theme inspired by Boca Juniors: gold editor background, dark navy chrome (title bar, tabs, status bar), and cream side bar and panels.
 
+![Boca Juniors 1905 theme in action](images/screenshot.png)
+
 ## Palette
 
 | Role | Color |
