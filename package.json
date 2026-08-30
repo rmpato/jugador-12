@@ -4,6 +4,7 @@
   "description": "Azul y Oro color theme for VS Code, inspired by Boca Juniors. Gold editor, navy chrome, cream panels.",
   "version": "0.1.0",
   "publisher": "pato",
+  "icon": "images/icon.png",
   "license": "MIT",
   "engines": {
     "vscode": "^1.75.0"
