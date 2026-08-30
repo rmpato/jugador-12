@@ -1,0 +1,39 @@
+name: Release
+
+on:
+  push:
+    tags:
+      - "v*"
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    name: Package and publish GitHub release
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Package extension
+        run: npx --yes @vscode/vsce package
+
+      - name: Create GitHub release with VSIX
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release create "${GITHUB_REF_NAME}" *.vsix \
+            --title "${GITHUB_REF_NAME}" \
+            --generate-notes
+
+      # To also publish to the VS Code Marketplace, create a PAT at
+      # https://dev.azure.com and add it as the VSCE_PAT repo secret,
+      # then uncomment:
+      # - name: Publish to Marketplace
+      #   env:
+      #     VSCE_PAT: ${{ secrets.VSCE_PAT }}
+      #   run: npx --yes @vscode/vsce publish --packagePath *.vsix

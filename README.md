@@ -1,5 +1,7 @@
 # Boca Juniors 1905 — VS Code Theme
 
+[![CI](https://github.com/rmpato/jugador-12/actions/workflows/ci.yml/badge.svg)](https://github.com/rmpato/jugador-12/actions/workflows/ci.yml)
+
 Azul y Oro. A light theme inspired by Boca Juniors: gold editor background, dark navy chrome (title bar, tabs, status bar), and cream side bar and panels.
 
 ## Palette

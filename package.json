@@ -3,9 +3,21 @@
   "displayName": "Boca Juniors 1905",
   "description": "Azul y Oro color theme for VS Code, inspired by Boca Juniors. Gold editor, navy chrome, cream panels.",
   "version": "0.1.0",
-  "publisher": "pato",
+  "publisher": "rmpato",
   "icon": "images/icon.png",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rmpato/jugador-12.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rmpato/jugador-12/issues"
+  },
+  "homepage": "https://github.com/rmpato/jugador-12#readme",
+  "galleryBanner": {
+    "color": "#002B5C",
+    "theme": "dark"
+  },
   "engines": {
     "vscode": "^1.75.0"
   },
